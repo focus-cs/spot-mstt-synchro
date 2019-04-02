@@ -1,0 +1,13 @@
+# fichier de configuration de la connexion avec PSNext
+psnext.url=http://qspot.schneider-electric.com:8080/psnext
+psnext.login=psnextadmin
+psnext.password=galano
+
+#PSNext database connexion
+psnext.driver=org.postgresql.Driver
+psnext_db.url=jdbc:postgresql://views.sciforma-online.com:6055/view?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory
+psnext_db.login=eedwichw
+psnext_db.password=WaZby4btVx4QOUBK1s8T2GL5
+
+# SQL Queries to be used 
+psnext.select= SELECT * FROM "Project" WHERE "Active"= '1' and "Version" = '1'
